@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" >
 </head>
-<body class="other-page">
+<body class="other-page center-text">
     <h1 class="center-text marker-heading">C'mon, Leave Us a Review</h1>
 
     <form id="reviewForm" action="/review" method="post">
@@ -30,7 +30,11 @@
         </select>
         <button type="submit">Submit</button>
     </form>
-    
+    <h1>Watch This Video</h1> 
+    <div class="video-container"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D8zlUUrFK-M" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
     <script>
     function showThankYouMessage(event) {
         event.preventDefault(); // Prevents the form from submitting
