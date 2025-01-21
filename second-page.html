@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" >
+</head>
+<body class="other-page">
+    <h1 class="center-text marker-heading">C'mon, Leave Us a Review</h1>
+
+    <form id="reviewForm" action="/review" method="post">
+        <label for="review-recipe">Recipe:</label>
+        <input type="text" id="review-recipe" name="recipe" />
+    </form>
+    
+    <div></div>
+    
+    <form id="ratingForm" onsubmit="showThankYouMessage(event)">
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script>
+    function showThankYouMessage(event) {
+        event.preventDefault(); // Prevents the form from submitting
+        alert("Thank you!");
+        document.getElementById('reviewForm').reset(); // Clear the review form
+        document.getElementById('ratingForm').reset(); // Clear the rating form
+    }
+    </script>
+</body>
+</html>

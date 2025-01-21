@@ -1,0 +1,74 @@
+/* styles.css */
+
+body.home {
+    background-color: #b36868;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body.other-page {
+    background-color: #50e043;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; /* Adjust the width as needed */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adding shadow to the image */
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(194, 48, 48);
+
+}
+
+.button1 {
+    background-color: #3b2fe6; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.button1:hover {
+    background-color: #9cdf45;
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+.font-marker {
+    font-size: 16px; /* Larger font size */
+    font-family: "Permanent Marker", serif;
+    }
+.marker-heading {
+    font-size: 48px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    font-family: "Permanent Marker", serif;
+    }
+    h2.marker-heading {
+        font-size: 24px; /* Larger font size */
+        font-weight: bold; /* Bold text */
+        font-family: "Permanent Marker", serif;
+        }
+        h3.marker-heading {
+            font-size: 18px; /* Larger font size */
+            font-weight: bold; /* Bold text */
+            font-family: "Permanent Marker", serif;
+            }
+            h4.marker-heading {
+                font-size: 16px; /* Larger font size */
+                font-weight: bold; /* Bold text */
+                font-family: "Permanent Marker", serif;
+                }
