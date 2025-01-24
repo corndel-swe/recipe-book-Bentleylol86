@@ -5,6 +5,8 @@ body.home {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 body.other-page {
     background-color: #50e043;
     background-size: cover;
@@ -14,14 +16,23 @@ body.other-page {
 
 
 body.other-page2 {
-    background-color: #1b478a;
+    background-color: #a38b8b;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.box {
+    width: 500px;
+    height: 100px;
+    background-color: rgba(194, 48, 48, 18);
+    font-family: 'Permanent Marker', cursive; 
+    font-size: 24px; color: #333;
+
+}
+
 .button1 {
-    background-color: #3b2fe6;
+    background-color: rgba(78, 22, 209, 0.55); 
     border: none;
     color: rgb(0, 0, 0);
     padding: 15px 32px;
@@ -36,6 +47,9 @@ body.other-page2 {
     color: white;
 }
 
+button:active {
+    background-color: #0062cc;
+  }
 
 .center {
     display: block;
@@ -164,4 +178,6 @@ body.other-page2 {
 .image-container:hover .hover-text {
     opacity: 1;
 }
+/* NAV BAR CSS BELOW 
 
+/* Add a black background color to the top navigation */
