@@ -1,0 +1,183 @@
+
+body.home {
+    background-color: #b36868;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body.other-page {
+    background-color: #50e043;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body.other-page2 {
+    background-color: #a38b8b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box {
+    width: 500px;
+    height: 100px;
+    background-color: rgba(194, 48, 48, 18);
+    font-family: 'Permanent Marker', cursive; 
+    font-size: 24px; color: #333;
+
+}
+
+.button1 {
+    background-color: rgba(78, 22, 209, 0.55); 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.button1:hover {
+    background-color: #9cdf45;
+    color: white;
+}
+
+button:active {
+    background-color: #0062cc;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+.center-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; 
+    
+
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+              }           
+
+
+
+.box {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(194, 48, 48);
+    font-family: 'Permanent Marker', cursive; 
+    font-size: 24px; color: #333;
+
+}
+
+
+.font-marker {
+    font-size: 16px; 
+    font-family: "Permanent Marker", serif;
+    }
+.marker-heading {
+    font-size: 48px;
+    font-weight: bold; 
+    font-family: "Permanent Marker", serif;
+    }
+    h2.marker-heading {
+        font-size: 24px; 
+        font-weight: bold; 
+        font-family: "Permanent Marker", serif;
+        }
+        h3.marker-heading {
+            font-size: 18px; 
+            font-weight: bold;
+            font-family: "Permanent Marker", serif;
+            }
+            h4.marker-heading {
+                font-size: 16px; 
+                font-weight: bold;
+                font-family: "Permanent Marker", serif;
+    }
+
+    .flex{
+        display: flex;
+        gap: 1rem; 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+        }
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.image-gallery img {
+    max-width: 100%; 
+    max-height: 150px; 
+    width: auto; 
+    height: auto; 
+    object-fit: cover;
+    border: 2px solid #f7f7f7; 
+    border-radius: 5px;
+    display: block;
+}
+
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.image-container:hover .hover-text {
+    opacity: 1;
+}
+/* NAV BAR CSS BELOW 
+
+/* Add a black background color to the top navigation */
